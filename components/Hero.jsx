@@ -84,7 +84,7 @@ export default function Hero() {
           {/* Bio */}
           <motion.div className="space-y-4 max-w-2xl" variants={itemVariants}>
             <p className="text-lg text-gray-300 leading-relaxed">
-              Specializes in building scalable systems governed by strict Standard Operating Procedures (SOPs). Expert in high-performance backend logic, PHP/Node.js ecosystems, Stripe API integrations, and algorithmic Decision Support Systems. Based in Batam, Indonesia[cite: 2].
+              Specializes in building scalable systems governed by strict Standard Operating Procedures (SOPs). Expert in high-performance backend logic, PHP/Node.js ecosystems, Stripe API integrations, and algorithmic Decision Support Systems. Based in Batam, Indonesia.
             </p>
             <motion.div
               className="flex gap-4 justify-center md:justify-start"
