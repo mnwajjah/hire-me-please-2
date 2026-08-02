@@ -2,13 +2,14 @@
 
 import { motion } from 'framer-motion'
 
-export default function About() {
+export default function About() 
+{
   const timeline = [
     {
       year: '2024-Present',
       title: 'Executive Fullstack Developer',
       company: 'Luna Park Media',
-      description: 'Leading backend architecture, Stripe API billing integrations, automated HR recruitment dashboards, and technical SEO infrastructure.',
+      description: 'Creating scalable backends architecture for multiple high-scale platforms, optimizing payment systems and infrastructure.',
     },
     {
       year: '2023-2024',
