@@ -29,7 +29,7 @@ export default function Header() {
             </button>
           ))}
           <a
-            href="CV_Muhammad_Nur_Wajjah.pdf"
+            href="/CV_Muhammad_Nur_Wajjah.pdf" 
             download="CV_Muhammad_Nur_Wajjah.pdf"
             target="_blank"
             rel="noopener noreferrer"
