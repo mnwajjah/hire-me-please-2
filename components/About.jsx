@@ -5,38 +5,38 @@ import { motion } from 'framer-motion'
 export default function About() {
   const timeline = [
     {
-      year: '2026',
-      title: 'IT Specialist & Fullstack Developer',
-      company: 'Freelance & Corporate Contracts',
-      description: 'Developing decision support systems (PROMETHEE, VIKOR) and automated marketing workflows for banking and state-owned enterprises.',
+      year: '2024-Present',
+      title: 'Executive Fullstack Developer',
+      company: 'Luna Park Media',
+      description: 'Leading backend architecture, Stripe API billing integrations, automated HR recruitment dashboards, and technical SEO infrastructure.',
     },
     {
-      year: '2025',
-      title: 'Web Developer & Digital Marketer',
-      company: 'Luna Park Media & Clients',
-      description: 'Collaborating on technical architecture, SEO optimization, Stripe billing integrations, and automated email campaigns.',
+      year: '2023-2024',
+      title: 'IT Specialist & Developer',
+      company: 'Freelance',
+      description: 'Engineered GIS mapping for PLN Kepri, multicriteria Decision Support Systems (PROMETHEE/VIKOR), and e-learning platforms.',
     },
     {
-      year: '2024',
-      title: 'Full Stack & PHP Developer',
-      company: 'Custom CRM & Web Applications',
-      description: 'Building custom inventory systems, recruitment portals, and high-performance database-driven applications.',
+      year: '2018-2019',
+      title: 'Counselor, Tester, IT',
+      company: 'Grahita Indonesia Kepri',
+      description: 'Directed client testing and insights, conducted coaching, maintained office infrastructure, and built the company website.',
     },
     {
-      year: '2020',
-      title: 'Graduated S1 Management',
-      company: 'STIE',
-      description: 'Focused on management information systems, business strategy, and digital operations.',
+      year: '2018-2023',
+      title: 'Bachelor of Informatics Engineering',
+      company: 'High School of Technology Indonesia (STTI)',
+      description: 'Thesis: Tuition Payment Application based on CodeIgniter Framework and React Native Framework at SMK Negeri 1 Tanjungpinang. GPA: 3.26.',
     },
   ]
 
   const skills = {
-    'Backend': ['PHP', 'MySQL', 'RESTful APIs', 'Custom CRM', 'Marketing Automation'],
-    'Database': ['MySQL', 'Database Optimization', 'Complex Queries'],
-    'Payment & API': ['Stripe Integration', 'Webhook Management', 'Subscription Billing', 'API Security'],
-    'Frontend': ['React', 'Next.js', 'HTML/CSS'],
-    'SEO & Marketing': ['Technical SEO', 'Schema JSON-LD', 'Email Campaigns', 'Analytics'],
-    'Tools': ['Git', 'Vercel', 'Linux', 'Postman'],
+    'Backend & Languages': ['PHP', 'JavaScript', 'Node.js', 'Python', 'R', 'SQL', 'RESTful APIs'],
+    'Frameworks': ['CodeIgniter', 'Express.js', 'React.js', 'React Native', 'Bootstrap'],
+    'Payment & API': ['Stripe API', 'Webhook Management', 'Subscription Billing', 'Mapbox API'],
+    'DevOps & Security': ['Linux', 'Apache', 'Nginx', 'cPanel', 'Git', 'GitHub', 'Security Hardening'],
+    'SEO & Marketing': ['Technical SEO', 'Schema JSON-LD', 'Google Analytics', 'Facebook Pixel', 'AdRoll'],
+    'Tools': ['Postman', 'Google Tag Manager', 'PDFKit', 'Networking'],
   }
 
   const containerVariants = {
@@ -125,12 +125,12 @@ export default function About() {
               <div className="text-gray-400">Projects Delivered</div>
             </motion.div>
             <motion.div className="text-center" variants={itemVariants} whileHover={{ scale: 1.05 }}>
-              <div className="text-4xl font-bold text-neon-pink mb-2">100%</div>
-              <div className="text-gray-400">Client Satisfaction</div>
+              <div className="text-4xl font-bold text-neon-pink mb-2">627</div>
+              <div className="text-gray-400">TOEFL Score</div>
             </motion.div>
             <motion.div className="text-center" variants={itemVariants} whileHover={{ scale: 1.05 }}>
-              <div className="text-4xl font-bold text-neon-cyan mb-2">24/7</div>
-              <div className="text-gray-400">System Uptime</div>
+              <div className="text-4xl font-bold text-neon-cyan mb-2">3.26</div>
+              <div className="text-gray-400">University GPA</div>
             </motion.div>
           </motion.div>
         </motion.div>
