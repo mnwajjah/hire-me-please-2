@@ -33,7 +33,7 @@ export default function About() {
   const skills = {
     'Backend & Languages': ['PHP', 'JavaScript', 'Node.js', 'Python', 'R', 'SQL', 'RESTful APIs'],
     'Frameworks': ['CodeIgniter', 'Express.js', 'React.js', 'React Native', 'Bootstrap'],
-    'Payment & API': ['Stripe API', 'Webhook Management', 'Subscription Billing', 'Mapbox API'],
+    'Payment & API': ['Stripe', 'Fastspring', 'Webhook Management', 'Subscription Billing', 'Mapbox'],
     'DevOps & Security': ['Linux', 'Apache', 'Nginx', 'cPanel', 'Git', 'GitHub', 'Security Hardening'],
     'SEO & Marketing': ['Technical SEO', 'Schema JSON-LD', 'Google Analytics', 'Facebook Pixel', 'AdRoll'],
     'Tools': ['Postman', 'Google Tag Manager', 'PDFKit', 'Networking'],
