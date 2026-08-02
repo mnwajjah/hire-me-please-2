@@ -29,7 +29,10 @@ export default function Header() {
             </button>
           ))}
           <a
-            href="#"
+            href="CV_Muhammad_Nur_Wajjah.pdf"
+            download="CV_Muhammad_Nur_Wajjah.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm uppercase tracking-wider px-4 py-2 border-2 border-neon-cyan hover:bg-neon-cyan hover:text-dark-bg transition-all"
           >
             CV
