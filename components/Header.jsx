@@ -18,7 +18,8 @@ export default function Header() {
           &gt; WAJJAH.DEV
         </div>
 
-        <nav className="hidden md:flex gap-8">
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex gap-8 items-center">
           {['work', 'about', 'contact'].map((item) => (
             <button
               key={item}
@@ -29,7 +30,7 @@ export default function Header() {
             </button>
           ))}
           <a
-            href="/CV_Muhammad_Nur_Wajjah.pdf" 
+            href="/CV_Muhammad_Nur_Wajjah.pdf"
             download="CV_Muhammad_Nur_Wajjah.pdf"
             className="text-sm uppercase tracking-wider px-4 py-2 border-2 border-neon-cyan hover:bg-neon-cyan hover:text-dark-bg transition-all"
           >
@@ -37,31 +38,41 @@ export default function Header() {
           </a>
         </nav>
 
+        {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="md:hidden flex flex-col gap-1"
         >
-          <div className="w-6 h-1 bg-neon-cyan"></div>
-          <div className="w-6 h-1 bg-neon-cyan"></div>
-          <div className="w-6 h-1 bg-neon-cyan"></div>
+          <span className="w-6 h-0.5 bg-neon-cyan"></span>
+          <span className="w-6 h-0.5 bg-neon-cyan"></span>
+          <span className="w-6 h-0.5 bg-neon-cyan"></span>
         </button>
-
-        {mobileMenuOpen && (
-          <div className="absolute top-16 right-0 bg-dark-card border-2 border-neon-cyan p-4 w-full md:hidden">
-            <nav className="flex flex-col gap-4">
-              {['work', 'about', 'contact'].map((item) => (
-                <button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
-                  className="text-sm uppercase tracking-wider hover:text-neon-pink"
-                >
-                  /{item}
-                </button>
-              ))}
-            </nav>
-          </div>
-        )}
       </div>
+
+      {/* Mobile Dropdown Menu */}
+      {mobileMenuOpen && (
+        <div className="md:hidden flex flex-col bg-dark-bg border-b-2 border-neon-cyan px-4 py-6 gap-4">
+          {['work', 'about', 'contact'].map((item) => (
+            <button
+              key={item}
+              onClick={() => scrollToSection(item)}
+              className="text-left text-sm uppercase tracking-wider hover:text-neon-pink transition-all"
+            >
+              /{item}
+            </button>
+          ))}
+          <a
+            href="/CV_Muhammad_Nur_Wajjah.pdf"
+            download="CV_Muhammad_Nur_Wajjah.pdf"
+            onClick={() => setMobileMenuOpen(false)}
+            className="text-left text-sm uppercase tracking-wider text-neon-cyan hover:text-neon-pink transition-all pt-2 border-t border-gray-800"
+          >
+            / Download CV
+          </a>
+        </div>
+      )}
     </header>
   )
 }
+
+//
