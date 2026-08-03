@@ -8,7 +8,7 @@ export default function Hero() {
 
   useEffect(() => {
     const timers = [
-      setTimeout(() => setCounts(c => ({ ...c, exp: 5 })), 500),
+      setTimeout(() => setCounts(c => ({ ...c, exp: 3 })), 500),
       setTimeout(() => setCounts(c => ({ ...c, users: 1 })), 700),
       setTimeout(() => setCounts(c => ({ ...c, projects: 10 })), 900),
       setTimeout(() => setCounts(c => ({ ...c, methods: 100 })), 1100),
