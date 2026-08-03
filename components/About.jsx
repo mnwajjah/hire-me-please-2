@@ -131,7 +131,7 @@ export default function About()
             </motion.div>
             <motion.div className="text-center" variants={itemVariants} whileHover={{ scale: 1.05 }}>
               <div className="text-4xl font-bold text-neon-cyan mb-2">3.26</div>
-              <div className="text-gray-400">University GPAA</div>
+              <div className="text-gray-400">University GPA</div>
             </motion.div>
           </motion.div>
         </motion.div>

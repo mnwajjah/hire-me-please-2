@@ -8,7 +8,7 @@ export default function Hero() {
 
   useEffect(() => {
     const timers = [
-      setTimeout(() => setCounts(c => ({ ...c, exp: 3 })), 500),
+      setTimeout(() => setCounts(c => ({ ...c, exp: 5 })), 500),
       setTimeout(() => setCounts(c => ({ ...c, users: 1 })), 700),
       setTimeout(() => setCounts(c => ({ ...c, projects: 10 })), 900),
       setTimeout(() => setCounts(c => ({ ...c, methods: 100 })), 1100),
@@ -68,12 +68,12 @@ export default function Hero() {
               <div className="text-sm text-gray-400">Years Experience</div>
             </motion.div>
             <motion.div variants={statsVariants}>
-              <div className="text-3xl font-bold text-neon-pink">{counts.users}K+</div>
-              <div className="text-sm text-gray-400">Active Users</div>
+              <div className="text-3xl font-bold text-neon-pink">24/7</div>
+              <div className="text-sm text-gray-400">System Uptime</div>
             </motion.div>
             <motion.div variants={statsVariants}>
-              <div className="text-3xl font-bold text-neon-cyan">€2K+</div>
-              <div className="text-sm text-gray-400">Monthly Revenue</div>
+              <div className="text-3xl font-bold text-neon-cyan">100%</div>
+              <div className="text-sm text-gray-400">SOP-Driven Code</div>
             </motion.div>
             <motion.div variants={statsVariants}>
               <div className="text-3xl font-bold text-neon-pink">{counts.projects}+</div>
