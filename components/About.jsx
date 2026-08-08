@@ -6,13 +6,13 @@ export default function About()
 {
   const timeline = [
     {
-      year: '2024-Present',
+      year: '2025-Present',
       title: 'Executive Fullstack Developer',
       company: 'Luna Park Media',
       description: 'Creating scalable backends architecture for multiple high-scale platforms, optimizing payment systems and infrastructure.',
     },
     {
-      year: '2023-2024',
+      year: '2023-Present',
       title: 'IT Specialist & Developer',
       company: 'Freelance',
       description: 'Engineered GIS mapping for PLN Kepri, multicriteria Decision Support Systems (PROMETHEE/VIKOR), and e-learning platforms.',
